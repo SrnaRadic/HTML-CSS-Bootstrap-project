@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+
+/************************************************
+                 GLobal styles
+************************************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+  width: 100%;
+}
+
+p {
+  padding: 15px;
+}
+
+.row {
+  margin: 0px;
+}
+
+
+/************************************************
+                 GLobal styles END
+************************************************/
+
+
+/************************************************
+                 Layout
+************************************************/
+
+header {
+background-color: #2A2829;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.services {
+  background-color: #fff;
+}
+
+.portfolio {
+  background-repeat: repeat-x;
+}
+
+.bcg-color {
+  background-color: #F7F8FA;
+}
+
+.position {
+  padding-top: 20px;
+}
+
+/************************************************
+                Layout END
+************************************************/
+
+
+
+/************************************************
+                Specific styles
+***********************************************/
+
+img .img-responsive {
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 5px;
+
+}
+
+.navbar-toggle {
+  padding: 18px 20px;
+  background-color: #FFCB2F;
+}
+
+.navbar-toggle:hover {
+  background-color: #FFCB2F;
+}
+
+navbar {
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+}
+
+.contentWrapper {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.contentWrapper img {
+  max-width: 100%;
+}
+
+.textWrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.textWrapper h1{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*"Tell me more" buttom style*/
+.yellowbtn {
+  background-color: #FFCB2F;
+  padding: 15px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 0;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.buttonWrapper {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.textWrapper h4 {
+  font-style: italic;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: bold;
+  font-size: 50px;
+}
+
+
+ul .nav {
+  vertical-align: center;
+}
+
+h3, h4, p {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.centerIcon {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.iconContainer {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: #FFCB2F;
+  border-radius: 50%;
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+
+.iconContainer2 {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: #2A2829;
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+}
+
+i {
+  color: #fff;
+  padding: 10px;
+}
+
+/*TIMELINE*/
+
+.imgTimelineBadge {
+  border-radius: 50%;
+  width: 100px;
+  margin-left: 15px;
+  position: absolute;
+  left: -15px;
+}
+
+.pTimelineBadge2 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -15px;
+  margin-left: 25px;
+  border: 3px solid black;
+  background-color: #FFCB2F;
+  color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  border-color: #F7F8FA;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 50px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 6px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  /*border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);*/
+  padding: 20px;
+  position: relative;
+
+}
+
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: none;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: none;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  line-height: 70px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 48%;
+  margin-left: -25px;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  }
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+div .timeline-heading {
+  padding-left: 15px;
+}
+.marginBtm {
+  margin-bottom: 100px;
+}
+
+/*Setting timeline for mobile to the right*/
+@media all and (max-width:768px) {
+  .timeline > li > .timeline-panel {
+    width: 80%;
+    float: right;
+    text-align: left;
+  }
+
+.timeline > li > .timeline-badge {
+    left: 10%;
+  }
+
+  .timeline:before {
+  left: 5em;
+  }
+}
+
+@media all and (max-width:992px) {
+    .timeline > li > .timeline-panel {
+      width: 80%;
+      float: right;
+      text-align: left;
+    }
+
+    .timeline > li > .timeline-badge {
+        left: 10%;
+      }
+
+    .timeline:before {
+      left: 100px;
+    }
+  }
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+  text-align: left;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+.pTimelineBadge2 {
+  left: 50%;
+  transform-translateY: 50%;
+  margin-left: -50px;
+
+}
+
+.LastTimlineBadge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 5px;
+}
+/*TIMELINE END*/
+
+.teamImg {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.bottomLogo {
+  text-align: center;
+  padding: 10px;
+}
+
+/*Form styling*/
+form {
+  margin: auto;
+  position: relative;
+}
+
+input[type=text], input[type=email], input[type=submit], input[type=tel], textarea {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 3px solid #F7F8FA;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 210px;
+}
+
+.ContactSection {
+  background-color: transparent;
+  background-image: url("..img/map-image.png");
+  background-size: contain;
+  width: 100%;
+   /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+  position: relative;
+}
+/*Form styling end*/
+
+.hiddenElement {
+  display: none;
+}
+
+.contentCenter {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footerStyle {
+  color: #FFCB2F;
+  padding: 5px;
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+small {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p.custom {
+  padding: 0;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.portfolioStyle {
+  background-color: white;
+  margin-top: 0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolioStyle img {
+  width: 100%;
+}
+
+div.portfolioStyle h4 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+h1 {
+padding-right: 20px;
+margin-left: 10px;
+}
+/************************************************
+                Specific styles END
+***********************************************/
